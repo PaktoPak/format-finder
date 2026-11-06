@@ -1,0 +1,190 @@
+{
+ "data": {
+  "fetch__XDTUserDict": {
+   "clips_connection": {
+    "edges": [
+     {
+      "node": {
+       "media": {
+        "pk": "3200000000000000001",
+        "id": "3200000000000000001_5200000002",
+        "code": "FakeReel001",
+        "media_type": 2,
+        "product_type": "clips",
+        "play_count": 990000,
+        "view_count": null,
+        "like_count": 9000,
+        "comment_count": 90,
+        "like_and_view_counts_disabled": false,
+        "clips_tab_pinned_user_ids": [
+         "5200000002"
+        ],
+        "user": {
+         "__typename": "XDTUserDict",
+         "pk": "5200000002",
+         "id": "5200000002",
+         "username": "fake_profile",
+         "full_name": "Fake Profile",
+         "is_verified": true,
+         "is_private": false,
+         "is_unpublished": false,
+         "profile_pic_url": "https://example.invalid/fake-profile.jpg"
+        },
+        "coauthor_producers": [],
+        "is_in_profile_grid": false,
+        "comments_disabled": null,
+        "boosted_status": null
+       },
+       "__typename": "XDTClipsItemDict"
+      },
+      "cursor": null
+     },
+     {
+      "node": {
+       "media": {
+        "pk": "3200000000000000002",
+        "id": "3200000000000000002_5200000002",
+        "code": "FakeReel002",
+        "media_type": 2,
+        "product_type": "clips",
+        "play_count": 12000,
+        "view_count": null,
+        "like_count": 300,
+        "comment_count": 12,
+        "like_and_view_counts_disabled": false,
+        "clips_tab_pinned_user_ids": [],
+        "user": {
+         "__typename": "XDTUserDict",
+         "pk": "5200000002",
+         "id": "5200000002",
+         "username": "fake_profile",
+         "full_name": "Fake Profile",
+         "is_verified": true,
+         "is_private": false,
+         "is_unpublished": false,
+         "profile_pic_url": "https://example.invalid/fake-profile.jpg"
+        },
+        "coauthor_producers": [],
+        "is_in_profile_grid": false,
+        "comments_disabled": null,
+        "boosted_status": null
+       },
+       "__typename": "XDTClipsItemDict"
+      },
+      "cursor": null
+     },
+     {
+      "node": {
+       "media": {
+        "pk": "3200000000000000003",
+        "id": "3200000000000000003_5200000099",
+        "code": "FakeReel003",
+        "media_type": 2,
+        "product_type": "clips",
+        "play_count": 15000,
+        "view_count": null,
+        "like_count": 400,
+        "comment_count": 15,
+        "like_and_view_counts_disabled": false,
+        "clips_tab_pinned_user_ids": [],
+        "user": {
+         "__typename": "XDTUserDict",
+         "pk": "5200000099",
+         "id": "5200000099",
+         "username": "fake_partner",
+         "full_name": "Fake Partner",
+         "is_verified": true,
+         "is_private": false,
+         "is_unpublished": false,
+         "profile_pic_url": "https://example.invalid/fake-partner.jpg"
+        },
+        "coauthor_producers": [],
+        "is_in_profile_grid": false,
+        "comments_disabled": null,
+        "boosted_status": null
+       },
+       "__typename": "XDTClipsItemDict"
+      },
+      "cursor": null
+     },
+     {
+      "node": {
+       "media": {
+        "pk": "3200000000000000004",
+        "id": "3200000000000000004_5200000002",
+        "code": "FakeReel004",
+        "media_type": 2,
+        "product_type": "clips",
+        "play_count": 9000,
+        "view_count": null,
+        "like_count": 250,
+        "comment_count": 8,
+        "like_and_view_counts_disabled": false,
+        "clips_tab_pinned_user_ids": [],
+        "user": {
+         "__typename": "XDTUserDict",
+         "pk": "5200000002",
+         "id": "5200000002",
+         "username": "fake_profile",
+         "full_name": "Fake Profile",
+         "is_verified": true,
+         "is_private": false,
+         "is_unpublished": false,
+         "profile_pic_url": "https://example.invalid/fake-profile.jpg"
+        },
+        "coauthor_producers": [],
+        "is_in_profile_grid": false,
+        "comments_disabled": null,
+        "boosted_status": null
+       },
+       "__typename": "XDTClipsItemDict"
+      },
+      "cursor": null
+     },
+     {
+      "node": {
+       "media": {
+        "pk": "3200000000000000005",
+        "id": "3200000000000000005_5200000002",
+        "code": "FakeReel005",
+        "media_type": 2,
+        "product_type": "clips",
+        "play_count": 11000,
+        "view_count": null,
+        "like_count": 280,
+        "comment_count": 10,
+        "like_and_view_counts_disabled": false,
+        "clips_tab_pinned_user_ids": [],
+        "user": {
+         "__typename": "XDTUserDict",
+         "pk": "5200000002",
+         "id": "5200000002",
+         "username": "fake_profile",
+         "full_name": "Fake Profile",
+         "is_verified": true,
+         "is_private": false,
+         "is_unpublished": false,
+         "profile_pic_url": "https://example.invalid/fake-profile.jpg"
+        },
+        "coauthor_producers": [],
+        "is_in_profile_grid": false,
+        "comments_disabled": null,
+        "boosted_status": null
+       },
+       "__typename": "XDTClipsItemDict"
+      },
+      "cursor": null
+     }
+    ],
+    "page_info": {
+     "end_cursor": "FAKE_REELS_CURSOR_1",
+     "has_next_page": true
+    }
+   },
+   "id": "5200000002"
+  }
+ },
+ "extensions": {
+  "is_final": true
+ }
+}

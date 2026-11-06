@@ -1,0 +1,10 @@
+yt-dlp[default,curl-cffi]>=2026.10.26
+# DevTools client for the browser route (yt-dlp[default] also brings it)
+websockets>=17.4
+instagrapi>=3.2.2
+aiograpi>=2.1.2
+faster-whisper>=1.2.1
+imageio-ffmpeg>=0.8.1
+# omkarcloud tiktok-scraper, imported as a library
+curl_cffi>=0.17.0
+marshmallow>=4.4.0

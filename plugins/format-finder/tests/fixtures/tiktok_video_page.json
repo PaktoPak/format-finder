@@ -1,0 +1,50 @@
+{
+ "__DEFAULT_SCOPE__": {
+  "webapp.video-detail": {
+   "statusCode": 0,
+   "statusMsg": "",
+   "itemInfo": {
+    "itemStruct": {
+     "id": "7200000000000000001",
+     "desc": "fake video page caption 1",
+     "createTime": "1790003600",
+     "video": {
+      "id": "7200000000000000001",
+      "duration": 31
+     },
+     "author": {
+      "id": "6800000000000000099",
+      "uniqueId": "fake_creator_v",
+      "nickname": "Fake Video Creator",
+      "secUid": "MS4wLjABAAAAfakevyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"
+     },
+     "music": {
+      "id": "7300000000000000001",
+      "title": "original sound",
+      "authorName": "Fake Video Creator"
+     },
+     "stats": {
+      "diggCount": 1000,
+      "shareCount": 1001,
+      "commentCount": 1002,
+      "playCount": 1003,
+      "collectCount": "1004"
+     },
+     "statsV2": {
+      "diggCount": "1000",
+      "shareCount": "1001",
+      "commentCount": "1002",
+      "playCount": "1003",
+      "collectCount": "1004",
+      "repostCount": "1005"
+     },
+     "authorStats": {
+      "followerCount": 4321,
+      "videoCount": 12
+     },
+     "isAd": false
+    }
+   }
+  }
+ }
+}

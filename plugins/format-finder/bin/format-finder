@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Runs the format-finder Python package from this plugin with the venv that setup.sh creates.
+set -euo pipefail
+PLUGIN_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+FF_HOME="${FORMAT_FINDER_HOME:-$HOME/.format-finder}"
+PY="$FF_HOME/venv/bin/python"
+if [ ! -x "$PY" ]; then
+  echo '{"ok": false, "errors": [{"route": null, "error": "format-finder is not set up yet. Run /format-finder:setup"}]}'
+  exit 1
+fi
+export PYTHONPATH="$PLUGIN_ROOT/src${PYTHONPATH:+:$PYTHONPATH}"
+export FORMAT_FINDER_PLUGIN_ROOT="$PLUGIN_ROOT"
+export PYTHONUTF8=1  # JSON, captions and files are UTF-8 whatever the terminal's locale
+exec "$PY" -m format_finder "$@"

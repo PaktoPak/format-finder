@@ -1,0 +1,36 @@
+{
+ "__DEFAULT_SCOPE__": {
+  "webapp.user-detail": {
+   "statusCode": 0,
+   "statusMsg": "",
+   "userInfo": {
+    "user": {
+     "id": "6800000000000000077",
+     "uniqueId": "fake_profile",
+     "nickname": "Fake Profile",
+     "secUid": "MS4wLjABAAAAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+     "privateAccount": false,
+     "verified": false
+    },
+    "stats": {
+     "followerCount": 123456,
+     "followingCount": 0,
+     "heart": 0,
+     "heartCount": 0,
+     "videoCount": 6,
+     "diggCount": 0,
+     "friendCount": 0
+    },
+    "statsV2": {
+     "followerCount": "123456",
+     "followingCount": "0",
+     "heart": "0",
+     "heartCount": "0",
+     "videoCount": "6",
+     "diggCount": "0",
+     "friendCount": "0"
+    }
+   }
+  }
+ }
+}

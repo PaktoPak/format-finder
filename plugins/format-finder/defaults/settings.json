@@ -1,0 +1,123 @@
+{
+  "recent_days": {
+    "value": 60,
+    "note": "Only videos from roughly the last month or two: older hits say less about what works now."
+  },
+  "search_limit": {
+    "value": 30,
+    "note": "Results kept per search phrase per platform."
+  },
+  "baseline_posts": {
+    "value": 20,
+    "note": "Posts read from each account to work out its normal views (the median of its unpaid posts)."
+  },
+  "baseline_min_posts": {
+    "value": 5,
+    "note": "Below this many unpaid posts with views (the video itself left out), the account's normal is not computed and the video is flagged too_few_posts."
+  },
+  "outlier_multiple_min": {
+    "value": 5,
+    "type": "number",
+    "note": "A video is an outlier at this many times its account's normal views. 5 catches clear outliers; 10 keeps only the strongest."
+  },
+  "outlier_views_min": {
+    "value": 5000,
+    "type": "integer",
+    "note": "A video under this many views is flagged low_views, whatever its multiple, because views are the measure: a high multiple on a tiny account proves little. 0 turns the floor off."
+  },
+  "recent_normal_posts": {
+    "value": 6,
+    "type": "integer",
+    "note": "The recent normal is the median of this many unpaid posts the account made just before the video (none when fewer came before it in the account history). A video that meets outlier_multiple_min against the account normal but not against the recent normal is flagged rising_account: its views are under outlier_multiple_min times the recent normal, so the account was already doing well before it."
+  },
+  "top_fraction": {
+    "value": 0.1,
+    "note": "The scan flags this share of its scored videos, by multiple, as top_fraction (roughly the top 10% of a batch); the find-formats skill looks at those first when it picks videos to watch."
+  },
+  "min_accounts_per_format": {
+    "value": 5,
+    "note": "A format counts only when at least this many separate accounts have a real outlier with it, so one creator's hit is not taken for a format."
+  },
+  "fading_min_span_days": {
+    "value": 14,
+    "type": "number",
+    "note": "check-formats compares older and newer halves of a format only when at least 4 of its counted videos have a date (min_dated_videos, fixed in the code) and those dates span at least this many days. too_recent is true when two or more dates span less, whatever their number. Formats tend to last a few months, so dates closer together than this cannot show fading."
+  },
+  "boost_ratio": {
+    "value": 0.1,
+    "note": "Flags videos whose likes+comments per view are under this fraction of the median of the same platform's videos in the batch (an unknown comment count counts as 0). Views far out of line with likes and comments suggest bought or boosted reach."
+  },
+  "in_niche_count": {
+    "value": null,
+    "type": "integer",
+    "note": "How many of the ten must come from the app's own niche. null means no fixed split: the ten are ranked on evidence."
+  },
+  "max_accounts_per_run": {
+    "value": 150,
+    "note": "Caps account-history lookups per run to limit requests from your IP."
+  },
+  "max_details_per_run": {
+    "value": 40,
+    "note": "Video lookups per run that add dates and likes/comments to the top outliers search left without them (YouTube Shorts search gives neither)."
+  },
+  "request_delay_seconds": {
+    "value": 1.5,
+    "note": "Pause between platform requests."
+  },
+  "frames_per_video": {
+    "value": 8,
+    "note": "Frames cut from each downloaded video for Claude to look at."
+  },
+  "whisper_model": {
+    "value": "base",
+    "note": "Local Whisper model used when a video has no captions."
+  },
+  "tiktok_proxy": {
+    "value": null,
+    "type": "text",
+    "note": "TikTok answers video search only from a US IP (omkarcloud README). Put a proxy URL here if you are outside the US."
+  },
+  "dtk_url": {
+    "value": null,
+    "type": "text",
+    "note": "Base URL of your own Douyin_TikTok_Download_API instance, e.g. http://127.0.0.1:8000. null skips TikTok route 2."
+  },
+  "dtk_api_key": {
+    "value": null,
+    "type": "text",
+    "note": "API key created in your own Douyin_TikTok_Download_API console."
+  },
+  "browser_path": {
+    "value": null,
+    "type": "text",
+    "note": "The Chrome, Chromium, Brave or Edge program the browser route runs. null finds one: a browser setup downloaded into ~/.format-finder/browser, then installed Chrome, Chromium, Brave, Edge, then Chrome for Testing in the Playwright cache."
+  },
+  "browser_route": {
+    "value": true,
+    "note": "true keeps the browser route (TikTok's and Instagram's own web pages read in a headless browser) as the last route for TikTok search, account and video and for Instagram account, video and download (Instagram search too when instagram_browser_search is true); false removes it everywhere."
+  },
+  "instagram_browser_search": {
+    "value": false,
+    "note": "true adds the browser route to Instagram search. Off by default because instagram.com's keyword search page sends its own tag-information request (fetch__XDTTagInfo) for the keyword, and the tool asks for no hashtag or tag data. Instagram account and video pages are not affected."
+  },
+  "browser_launch_timeout_seconds": {
+    "value": 30,
+    "type": "number",
+    "note": "Seconds the browser route waits for the browser to start. Raise it on a slow computer."
+  },
+  "browser_load_timeout_seconds": {
+    "value": 30,
+    "type": "number",
+    "note": "Seconds the browser route waits for a page's HTML to arrive. Raise it on a slow connection."
+  },
+  "browser_search_timeout_seconds": {
+    "value": 90,
+    "type": "number",
+    "note": "Seconds one TikTok or Instagram search through the browser may take, all result pages included."
+  },
+  "browser_page_timeout_seconds": {
+    "value": 45,
+    "type": "number",
+    "note": "Seconds one TikTok or Instagram profile or video page through the browser may take, post-list pages included."
+  }
+}

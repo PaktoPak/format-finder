@@ -1,0 +1,263 @@
+[
+ {
+  "require": [
+   [
+    "ScheduledServerJS",
+    "handle",
+    null,
+    [
+     {
+      "__bbox": {
+       "require": [
+        [
+         "RelayPrefetchedStreamCache",
+         "next",
+         [],
+         [
+          "adp_PolarisClipsTabDesktopContainerSeedMediaQueryRelayPreloader_fake0000000000000",
+          {
+           "__bbox": {
+            "complete": true,
+            "result": {
+             "data": {
+              "xig_fetch_media": {
+               "code": "FakeCodeR01",
+               "id": "3300000000000000001_5300000003",
+               "pk": "3300000000000000001",
+               "media_type": 2,
+               "product_type": "clips",
+               "user": {
+                "__typename": "XDTUserDict",
+                "pk": "5300000003",
+                "id": "5300000003",
+                "username": "fake_reel_maker",
+                "full_name": "Fake Reel Maker",
+                "is_verified": true,
+                "is_private": false,
+                "is_unpublished": false,
+                "profile_pic_url": "https://example.invalid/fake-r.jpg",
+                "is_ai_user": false
+               },
+               "owner_id": {
+                "pk": "5300000003",
+                "id": "5300000003"
+               },
+               "like_count": 4321,
+               "comment_count": 87,
+               "like_and_view_counts_disabled": false,
+               "view_count": null,
+               "fb_like_count": null,
+               "taken_at": 1790000500,
+               "caption": {
+                "text": "fake reel caption",
+                "pk": "17800000000000001",
+                "has_translation": null
+               },
+               "clips_metadata": {
+                "is_shared_to_fb": false,
+                "music_info": null,
+                "original_sound_info": {
+                 "audio_asset_id": "1700000000000001",
+                 "ig_artist": {
+                  "id": "5300000003",
+                  "username": "fake_reel_maker",
+                  "profile_pic_url": "https://example.invalid/fake-r.jpg"
+                 },
+                 "original_audio_title": "Original audio",
+                 "is_explicit": false,
+                 "consumption_info": {
+                  "is_trending_in_clips": false
+                 }
+                }
+               },
+               "has_audio": true,
+               "is_dash_eligible": 1,
+               "video_dash_manifest": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<MPD xmlns=\"urn:mpeg:dash:schema:mpd:2011\" mediaPresentationDuration=\"PT42.5S\" type=\"static\"></MPD>",
+               "media_repost_count": null,
+               "coauthor_producers": []
+              }
+             },
+             "extensions": {
+              "is_final": true
+             }
+            },
+            "sequence_number": 0
+           }
+          }
+         ]
+        ]
+       ]
+      }
+     }
+    ]
+   ]
+  ]
+ },
+ {
+  "require": [
+   [
+    "ScheduledServerJS",
+    "handle",
+    null,
+    [
+     {
+      "__bbox": {
+       "require": [
+        [
+         "RelayPrefetchedStreamCache",
+         "next",
+         [],
+         [
+          "adp_PolarisClipsTabDesktopContainerQueryRelayPreloader_fake0000000000000",
+          {
+           "__bbox": {
+            "complete": true,
+            "result": {
+             "data": {
+              "xdt_api__v1__clips__home__connection_v2": {
+               "edges": [
+                {
+                 "node": {
+                  "media": {
+                   "code": "FakeCodeR01",
+                   "id": "3300000000000000001_5300000003",
+                   "pk": "3300000000000000001",
+                   "media_type": 2,
+                   "product_type": "clips",
+                   "user": {
+                    "__typename": "XDTUserDict",
+                    "pk": "5300000003",
+                    "id": "5300000003",
+                    "username": "fake_reel_maker",
+                    "full_name": "Fake Reel Maker",
+                    "is_verified": true,
+                    "is_private": false,
+                    "is_unpublished": false,
+                    "profile_pic_url": "https://example.invalid/fake-r.jpg",
+                    "is_ai_user": false
+                   },
+                   "owner_id": {
+                    "pk": "5300000003",
+                    "id": "5300000003"
+                   },
+                   "like_count": 4321,
+                   "comment_count": 87,
+                   "like_and_view_counts_disabled": false,
+                   "view_count": null,
+                   "fb_like_count": null,
+                   "taken_at": 1790000500,
+                   "clips_metadata": {
+                    "is_shared_to_fb": false,
+                    "music_info": null,
+                    "original_sound_info": {
+                     "audio_asset_id": "1700000000000001",
+                     "ig_artist": {
+                      "id": "5300000003",
+                      "username": "fake_reel_maker",
+                      "profile_pic_url": "https://example.invalid/fake-r.jpg"
+                     },
+                     "original_audio_title": "Original audio",
+                     "is_explicit": false,
+                     "consumption_info": {
+                      "is_trending_in_clips": false
+                     }
+                    }
+                   },
+                   "has_audio": true,
+                   "is_dash_eligible": 1,
+                   "media_repost_count": null,
+                   "coauthor_producers": []
+                  },
+                  "__typename": "XDTClipsItemDict"
+                 },
+                 "cursor": null
+                },
+                {
+                 "node": {
+                  "media": {
+                   "code": "FakeCodeX99",
+                   "id": "3300000000000000099_5300000099",
+                   "pk": "3300000000000000099",
+                   "media_type": 2,
+                   "product_type": "clips",
+                   "user": {
+                    "__typename": "XDTUserDict",
+                    "pk": "5300000099",
+                    "id": "5300000099",
+                    "username": "fake_other_maker",
+                    "full_name": "Fake Reel Maker",
+                    "is_verified": true,
+                    "is_private": false,
+                    "is_unpublished": false,
+                    "profile_pic_url": "https://example.invalid/fake-r.jpg",
+                    "is_ai_user": false
+                   },
+                   "owner_id": {
+                    "pk": "5300000003",
+                    "id": "5300000003"
+                   },
+                   "like_count": 1,
+                   "comment_count": 1,
+                   "like_and_view_counts_disabled": false,
+                   "view_count": null,
+                   "fb_like_count": null,
+                   "taken_at": 1790000500,
+                   "caption": {
+                    "text": "fake reel caption",
+                    "pk": "17800000000000001",
+                    "has_translation": null
+                   },
+                   "clips_metadata": {
+                    "is_shared_to_fb": false,
+                    "music_info": null,
+                    "original_sound_info": {
+                     "audio_asset_id": "1700000000000001",
+                     "ig_artist": {
+                      "id": "5300000003",
+                      "username": "fake_reel_maker",
+                      "profile_pic_url": "https://example.invalid/fake-r.jpg"
+                     },
+                     "original_audio_title": "Original audio",
+                     "is_explicit": false,
+                     "consumption_info": {
+                      "is_trending_in_clips": false
+                     }
+                    }
+                   },
+                   "has_audio": true,
+                   "is_dash_eligible": 1,
+                   "video_dash_manifest": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<MPD xmlns=\"urn:mpeg:dash:schema:mpd:2011\" mediaPresentationDuration=\"PT42.5S\" type=\"static\"></MPD>",
+                   "media_repost_count": null,
+                   "coauthor_producers": []
+                  },
+                  "__typename": "XDTClipsItemDict"
+                 },
+                 "cursor": null
+                }
+               ],
+               "gating": null,
+               "page_info": {
+                "end_cursor": "FAKE_HOME_CURSOR",
+                "has_next_page": true,
+                "has_previous_page": false,
+                "start_cursor": null
+               }
+              }
+             },
+             "extensions": {
+              "is_final": true
+             }
+            },
+            "sequence_number": 0
+           }
+          }
+         ]
+        ]
+       ]
+      }
+     }
+    ]
+   ]
+  ]
+ }
+]

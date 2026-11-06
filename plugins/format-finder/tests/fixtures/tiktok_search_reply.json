@@ -1,0 +1,153 @@
+{
+ "status_code": 0,
+ "item_list": [
+  {
+   "id": "7000000000000000001",
+   "desc": "fake caption 1 for a meal prep test",
+   "createTime": 1790086400,
+   "video": {
+    "id": "7000000000000000001",
+    "duration": 24,
+    "height": 1024,
+    "width": 576
+   },
+   "author": {
+    "id": "6800000000000000001",
+    "uniqueId": "fake_creator_a",
+    "nickname": "Fake Creator 1",
+    "secUid": "MS4wLjABAAAAfake1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "privateAccount": false
+   },
+   "music": {
+    "id": "7100000000000000001",
+    "title": "original sound - fake_creator_a",
+    "authorName": "fake_creator_a"
+   },
+   "stats": {
+    "diggCount": 100,
+    "shareCount": 5,
+    "commentCount": 10,
+    "playCount": 7000,
+    "collectCount": 1
+   },
+   "statsV2": {
+    "diggCount": "100",
+    "shareCount": "5",
+    "commentCount": "10",
+    "playCount": "7000",
+    "collectCount": "1",
+    "repostCount": "0"
+   },
+   "authorStats": {
+    "followerCount": 2000,
+    "videoCount": 50
+   },
+   "authorStatsV2": {
+    "followerCount": "2000",
+    "videoCount": "50"
+   },
+   "isAd": false
+  },
+  {
+   "id": "7000000000000000002",
+   "desc": "fake caption 2 for a meal prep test",
+   "createTime": 1790172800,
+   "video": {
+    "id": "7000000000000000002",
+    "duration": 38,
+    "height": 1024,
+    "width": 576
+   },
+   "author": {
+    "id": "6800000000000000002",
+    "uniqueId": "fake_creator_b",
+    "nickname": "Fake Creator 2",
+    "secUid": "MS4wLjABAAAAfake2xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "privateAccount": false
+   },
+   "music": {
+    "id": "7100000000000000002",
+    "title": "original sound - fake_creator_b",
+    "authorName": "fake_creator_b"
+   },
+   "stats": {
+    "diggCount": 200,
+    "shareCount": 10,
+    "commentCount": 20,
+    "playCount": 14000,
+    "collectCount": 2
+   },
+   "statsV2": {
+    "diggCount": "200",
+    "shareCount": "10",
+    "commentCount": "20",
+    "playCount": "14000",
+    "collectCount": "2",
+    "repostCount": "0"
+   },
+   "authorStats": {
+    "followerCount": 4000,
+    "videoCount": 100
+   },
+   "authorStatsV2": {
+    "followerCount": "4000",
+    "videoCount": "100"
+   },
+   "isAd": false
+  },
+  {
+   "id": "7000000000000000003",
+   "desc": "fake caption 3 for a meal prep test",
+   "createTime": 1790259200,
+   "video": {
+    "id": "7000000000000000003",
+    "duration": 47,
+    "height": 1024,
+    "width": 576
+   },
+   "author": {
+    "id": "6800000000000000003",
+    "uniqueId": "fake_creator_c",
+    "nickname": "Fake Creator 3",
+    "secUid": "MS4wLjABAAAAfake3xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "privateAccount": false
+   },
+   "music": {
+    "id": "7100000000000000003",
+    "title": "original sound - fake_creator_c",
+    "authorName": "fake_creator_c"
+   },
+   "stats": {
+    "diggCount": 300,
+    "shareCount": 15,
+    "commentCount": 30,
+    "playCount": 21000,
+    "collectCount": 3
+   },
+   "statsV2": {
+    "diggCount": "300",
+    "shareCount": "15",
+    "commentCount": "30",
+    "playCount": "21000",
+    "collectCount": "3",
+    "repostCount": "0"
+   },
+   "authorStats": {
+    "followerCount": 6000,
+    "videoCount": 150
+   },
+   "authorStatsV2": {
+    "followerCount": "6000",
+    "videoCount": "150"
+   },
+   "isAd": true
+  }
+ ],
+ "has_more": 1,
+ "cursor": 3,
+ "extra": {
+  "now": 1790500000000,
+  "logid": "FAKELOGID",
+  "fatal_item_ids": []
+ }
+}

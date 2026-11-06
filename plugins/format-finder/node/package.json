@@ -1,0 +1,14 @@
+{
+  "name": "format-finder-youtube",
+  "version": "0.1.0",
+  "private": true,
+  "description": "YouTube.js route for format-finder (route 2 for YouTube). setup.sh copies yt.mjs and this file to ~/.format-finder/node and runs npm install there.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "youtubei.js": "^18.3.0"
+  }
+}

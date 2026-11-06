@@ -1,0 +1,20 @@
+{
+  "name": "format-finder",
+  "version": "0.1.0",
+  "description": "Give it an app brief; it finds outlier short-form videos on YouTube Shorts, TikTok and Instagram Reels and turns them into ten formats to test. Free routes only.",
+  "author": {
+    "name": "format-finder contributors"
+  },
+  "homepage": "https://github.com/PaktoPak/format-finder",
+  "repository": "https://github.com/PaktoPak/format-finder",
+  "license": "MIT",
+  "keywords": [
+    "short-form",
+    "tiktok",
+    "reels",
+    "youtube-shorts",
+    "outliers",
+    "ugc",
+    "app-marketing"
+  ]
+}

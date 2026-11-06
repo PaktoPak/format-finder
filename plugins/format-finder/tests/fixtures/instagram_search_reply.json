@@ -1,0 +1,158 @@
+{
+ "data": {
+  "xdt_viewer": {
+   "user": {
+    "hide_like_and_view_counts": false,
+    "id": "40000000001"
+   }
+  },
+  "xdt_fbsearch__top_serp_graphql": {
+   "edges": [
+    {
+     "node": {
+      "__typename": "XDTTopSerpMediaGridUnit",
+      "items": [
+       {
+        "__typename": "XDTMediaDict",
+        "pk": "3100000000000000001",
+        "id": "3100000000000000001_5100000001",
+        "code": "FakeCodeA01",
+        "taken_at": 1790000000,
+        "media_type": 2,
+        "like_count": 5300,
+        "comment_count": 31,
+        "like_and_view_counts_disabled": false,
+        "view_count": null,
+        "caption": {
+         "text": "fake caption 1"
+        },
+        "user": {
+         "pk": "5100000001",
+         "id": "5100000001",
+         "username": "fake_creator_a",
+         "full_name": "Fake Creator A",
+         "is_private": false,
+         "is_verified": false,
+         "profile_pic_url": "https://example.invalid/fake-a.jpg"
+        },
+        "has_audio": true,
+        "carousel_media_count": null,
+        "comments_disabled": null,
+        "organic_tracking_token": "FAKE_TOKEN",
+        "is_dash_eligible": 1,
+        "number_of_qualities": 2,
+        "video_dash_manifest": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<MPD xmlns=\"urn:mpeg:dash:schema:mpd:2011\" mediaPresentationDuration=\"PT30.4S\" type=\"static\"></MPD>"
+       },
+       {
+        "__typename": "XDTMediaDict",
+        "pk": "3100000000000000002",
+        "id": "3100000000000000002_5100000002",
+        "code": "FakeCodeB02",
+        "taken_at": 1790000100,
+        "media_type": 2,
+        "like_count": 0,
+        "comment_count": 4,
+        "like_and_view_counts_disabled": true,
+        "view_count": null,
+        "caption": {
+         "text": "fake caption 2"
+        },
+        "user": {
+         "pk": "5100000002",
+         "id": "5100000002",
+         "username": "fake_creator_b",
+         "full_name": "Fake Creator B",
+         "is_private": false,
+         "is_verified": false,
+         "profile_pic_url": "https://example.invalid/fake-b.jpg"
+        },
+        "has_audio": true,
+        "carousel_media_count": null,
+        "comments_disabled": null,
+        "organic_tracking_token": "FAKE_TOKEN",
+        "is_dash_eligible": 1,
+        "number_of_qualities": 2,
+        "video_dash_manifest": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<MPD xmlns=\"urn:mpeg:dash:schema:mpd:2011\" mediaPresentationDuration=\"PT61.5S\" type=\"static\"></MPD>"
+       },
+       {
+        "__typename": "XDTMediaDict",
+        "pk": "3100000000000000003",
+        "id": "3100000000000000003_5100000001",
+        "code": "FakeCodeC03",
+        "taken_at": 1790000200,
+        "media_type": 1,
+        "like_count": 120,
+        "comment_count": 2,
+        "like_and_view_counts_disabled": false,
+        "view_count": null,
+        "caption": {
+         "text": "fake caption 3"
+        },
+        "user": {
+         "pk": "5100000001",
+         "id": "5100000001",
+         "username": "fake_creator_a",
+         "full_name": "Fake Creator A",
+         "is_private": false,
+         "is_verified": false,
+         "profile_pic_url": "https://example.invalid/fake-a.jpg"
+        },
+        "has_audio": false,
+        "carousel_media_count": null,
+        "comments_disabled": null,
+        "organic_tracking_token": "FAKE_TOKEN"
+       }
+      ]
+     },
+     "cursor": ""
+    },
+    {
+     "node": {
+      "__typename": "XDTTopSerpMediaGridUnit",
+      "items": [
+       {
+        "__typename": "XDTMediaDict",
+        "pk": "3100000000000000004",
+        "id": "3100000000000000004_5100000001",
+        "code": "FakeCodeD04",
+        "taken_at": 1790000300,
+        "media_type": 2,
+        "like_count": 800,
+        "comment_count": 9,
+        "like_and_view_counts_disabled": false,
+        "view_count": null,
+        "caption": {
+         "text": "fake caption 4"
+        },
+        "user": {
+         "pk": "5100000001",
+         "id": "5100000001",
+         "username": "fake_creator_a",
+         "full_name": "Fake Creator A",
+         "is_private": false,
+         "is_verified": false,
+         "profile_pic_url": "https://example.invalid/fake-a.jpg"
+        },
+        "has_audio": true,
+        "carousel_media_count": null,
+        "comments_disabled": null,
+        "organic_tracking_token": "FAKE_TOKEN",
+        "is_dash_eligible": 1,
+        "number_of_qualities": 2,
+        "video_dash_manifest": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<MPD xmlns=\"urn:mpeg:dash:schema:mpd:2011\" mediaPresentationDuration=\"PT15S\" type=\"static\"></MPD>"
+       }
+      ]
+     },
+     "cursor": "FAKE_CURSOR_1"
+    }
+   ],
+   "page_info": {
+    "has_next_page": true,
+    "end_cursor": "FAKE_CURSOR_1"
+   }
+  }
+ },
+ "extensions": {
+  "is_final": true
+ }
+}

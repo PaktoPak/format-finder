@@ -1,0 +1,14 @@
+{
+  "name": "format-finder",
+  "description": "format-finder: outlier short-form video research for app marketers, as a Claude Code plugin.",
+  "owner": {
+    "name": "format-finder contributors"
+  },
+  "plugins": [
+    {
+      "name": "format-finder",
+      "source": "./plugins/format-finder",
+      "description": "Find outlier short-form videos for an app brief and turn them into ten formats to test. Free routes only."
+    }
+  ]
+}

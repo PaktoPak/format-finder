@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.test-runs/
+format-finder-runs/
+.DS_Store
